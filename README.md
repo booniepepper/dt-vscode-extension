@@ -1,4 +1,4 @@
-# rail-lang README
+# dt README
 
-[Rail](https://github.com/hiljusti/rail) language syntax highlighting.
+[dt](https://github.com/hiljusti/dt) syntax highlighting.
 

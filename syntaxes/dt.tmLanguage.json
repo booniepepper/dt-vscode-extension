@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "Rail",
+	"name": "dt",
 	"patterns": [
 		{
 			"include": "#comments"
@@ -13,23 +13,23 @@
     "comments": {
       "patterns": [
         {
-          "name": "comment.line.rail",
+          "name": "comment.line.dt",
           "begin": "#",
           "end": "\n"
         }
       ]
 		},
 		"strings": {
-			"name": "string.quoted.double.rail",
+			"name": "string.quoted.double.dt",
 			"begin": "\"",
 			"end": "\"",
 			"patterns": [
 				{
-					"name": "constant.character.escape.rail",
+					"name": "constant.character.escape.dt",
 					"match": "\\\\."
 				}
 			]
     }
 	},
-	"scopeName": "source.rail"
+	"scopeName": "source.dt"
 }
