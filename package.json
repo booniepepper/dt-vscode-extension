@@ -2,9 +2,9 @@
     "name": "dt",
     "displayName": "dt",
     "description": "dt syntax highlighting.",
-    "version": "0.1.0",
-    "repository": "https://github.com/hiljusti/dt-vscode-extension",
-    "publisher": "hiljusti",
+    "version": "1.0.1",
+    "repository": "https://github.com/booniepepper/dt-vscode-extension",
+    "publisher": "booniepepper",
     "engines": {
         "vscode": "^1.60.0"
     },
@@ -12,16 +12,25 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "dt",
-            "aliases": ["duck tape", "duct tape"],
-            "extensions": [".dt"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "dt",
-            "scopeName": "source.dt",
-            "path": "./syntaxes/dt.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "dt",
+                "aliases": [
+                    "duct tape",
+                    "duck tape"
+                ],
+                "extensions": [
+                    ".dt"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "dt",
+                "scopeName": "source.dt",
+                "path": "./syntaxes/dt.tmLanguage.json"
+            }
+        ]
     }
 }
