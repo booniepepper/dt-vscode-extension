@@ -2,7 +2,8 @@
     "name": "dt",
     "displayName": "dt",
     "description": "dt syntax highlighting.",
-    "version": "1.0.1",
+    "version": "1.0.2",
+    "icon": "icon.png",
     "repository": "https://github.com/booniepepper/dt-vscode-extension",
     "publisher": "booniepepper",
     "engines": {
